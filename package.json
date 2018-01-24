@@ -1,0 +1,75 @@
+{
+  "_from": "git+https://github.com/julianovidal/grunt-connect-proxy.git",
+  "_id": "grunt-connect-proxy@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-gWdzg/JA28/79x6RlByStKfmtE8=",
+  "_location": "/grunt-connect-proxy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "grunt-connect-proxy@git+https://github.com/julianovidal/grunt-connect-proxy.git",
+    "name": "grunt-connect-proxy",
+    "escapedName": "grunt-connect-proxy",
+    "rawSpec": "git+https://github.com/julianovidal/grunt-connect-proxy.git",
+    "saveSpec": "git+https://github.com/julianovidal/grunt-connect-proxy.git",
+    "fetchSpec": "https://github.com/julianovidal/grunt-connect-proxy.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/julianovidal/grunt-connect-proxy.git#83a7433a799721afeb311f18b23bf65a0071edcf",
+  "_spec": "grunt-connect-proxy@git+https://github.com/julianovidal/grunt-connect-proxy.git",
+  "_where": "/home/jonathan/Projects/ImpactData/Supervisor/static",
+  "author": {
+    "name": "Drewz",
+    "email": "drewz@2mod5.com"
+  },
+  "bugs": {
+    "url": "https://github.com/julianovidal/grunt-connect-proxy/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "http-proxy": "^1.14.0",
+    "lodash": "^4.15.0"
+  },
+  "deprecated": false,
+  "description": "Provides a http proxy as middleware for grunt connect.",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/julianovidal/grunt-connect-proxy",
+  "keywords": [
+    "gruntplugin",
+    "proxy",
+    "connect",
+    "http",
+    "grunt"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/julianovidal/grunt-connect-proxy/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "name": "grunt-connect-proxy",
+  "peerDependencies": {
+    "grunt": "~1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drewzboto/grunt-connect-proxy.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.2.1"
+}
